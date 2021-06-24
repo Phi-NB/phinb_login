@@ -1,0 +1,92 @@
+* {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  font-size: 16px;
+  color: #77797b;
+  line-height: 16px;
+  font-family: "Roboto", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #f3f3f4;
+}
+
+.btn {
+  width: 100%;
+  font-size: 14px;
+  border: none;
+  border-radius: 2px;
+}
+
+.main .modal {
+  width: 800px;
+  padding: 20px;
+  margin: auto;
+  margin-top: 100px;
+  min-height: 400px;
+}
+.main .modal .modal__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.main .modal .modal__container .modal__introduce {
+  max-width: 360px;
+}
+.main .modal .modal__container .modal__introduce .modal__introduce-heading {
+  font-size: 25px;
+  font-weight: 400;
+}
+.main .modal .modal__container .modal__introduce .modal__introduce-text {
+  font-size: 14px;
+}
+.main .modal .modal__container .modal__introduce .modal__introduce-text-small {
+  font-size: 12px;
+}
+.main .modal .modal__container .modal__form {
+  margin-left: 60px;
+}
+.main .modal .modal__container .modal__form .auth-form-input {
+  display: block;
+  width: 325px;
+  height: 34px;
+  padding: 0 12px;
+  margin: 15px 0;
+  font-size: 14px;
+  border: none;
+  outline: none;
+}
+.main .modal .modal__container .modal__form .form-login {
+  background-color: #1ab394;
+  color: #fff;
+  padding: 9px 0;
+  cursor: pointer;
+  font-weight: 400;
+}
+.main .modal .modal__container .modal__form .forgot-password {
+  color: #4988be;
+  font-size: 12px;
+}
+.main .modal .modal__container .modal__form .text-ask {
+  text-align: center;
+  font-size: 10px;
+}
+.main .modal .modal__container .modal__form .form-create {
+  padding: 8px 0;
+  background-color: #fff;
+  color: #77797b;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+.main .modal .modal__copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 14px;
+  margin-top: 106px;
+}
