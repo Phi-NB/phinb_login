@@ -118,3 +118,11 @@ html {
     margin-left: unset;
   }
 }
+@media (max-width: 329px) {
+  .main .modal .modal__copyright .infor-company {
+    font-size: 12px;
+  }
+  .main .modal .modal__copyright .time-write {
+    font-size: 12px;
+  }
+}
