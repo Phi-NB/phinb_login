@@ -18,28 +18,28 @@ html{
 }
 
 .main{
-    .modal{
+    .modul{
         max-width: 800px;
         padding: 20px;
         margin: auto;
         margin-top: 100px;
         min-height: 400px;
-        .modal__container{
+        .modul__container{
             display: flex;
-            .modal__introduce{
+            .modul__introduce{
                 max-width: 360px;
-                .modal__introduce-heading{
+                .modul__introduce-heading{
                     font-size: 25px;
                     font-weight: 400;
                 }
-                .modal__introduce-text{
+                .modul__introduce-text{
                     font-size: 14px;
                 }
-                .modal__introduce-text-small{
+                .modul__introduce-text-small{
                     font-size: 12px;
                 }
             }
-            .modal__form{
+            .modul__form{
                 margin-left: 60px;
                 flex: 1;
                 .auth-form-input{
@@ -62,6 +62,7 @@ html{
                 .forgot-password{
                     color: #4988be;
                     font-size: 12px;
+                    text-decoration: none;
                 }
                 .text-ask{
                     text-align: center;
@@ -76,7 +77,7 @@ html{
                 }
             }
         }
-        .modal__copyright{
+        .modul__copyright{
             display: flex;
             justify-content: space-between;
             font-size: 14px;
@@ -99,23 +100,23 @@ html{
 // Mobile
 @media (max-width: 740px){
     .main{
-        .modal{
-            .modal__container{
+        .modul{
+            .modul__container{
                 flex-direction: column;
-                .modal__introduce{
+                .modul__introduce{
                     margin: auto;
                     width: 100%;
-                    .modal__introduce-heading{
+                    .modul__introduce-heading{
                         text-align: center;
                     }
-                    .modal__introduce-text{
+                    .modul__introduce-text{
                         display: none;
                     }
-                    .modal__introduce-text-small{
+                    .modul__introduce-text-small{
                         display: none;
                     }
                 }
-                .modal__form{
+                .modul__form{
                     margin-left: unset;
                 }
             }
@@ -125,8 +126,8 @@ html{
 
 @media (max-width: 329px){
     .main{
-        .modal{
-            .modal__copyright{
+        .modul{
+            .modul__copyright{
                 .infor-company{
                     font-size: 12px;
                 }
